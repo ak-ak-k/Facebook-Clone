@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .shortcuts {
+    display: none;
+  }
+  .sideBarRow {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+
+  .widgets {
+    display: none;
+  }
+  .header {
+    width: 57.5rem;
+  }
+  .header-input input {
+    display: none;
+  }
+  .header-info {
+    display: none;
+  }
+  .feed {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+  .story h4 {
+    font-size: 10px;
+  }
+  .story img {
+    width: 40px;
+  }
+}
+
+@media (min-width: 320px) {
+  .storyReel {
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1440px) {
+  .feed {
+    width: 50%;
+    padding: 10px;
+  }
+}
